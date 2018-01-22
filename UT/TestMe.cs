@@ -3,17 +3,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;  
-using AddressPicker;        
+using AddressPicker;
+using NUnit.Framework;        
             
+[TestFixture]
 class TestMe_Test
 {
 
 public void Assert(bool val)
 {
     //Call Nunit Assert Here
+    NUnit.Framework.Assert.True(val);
 }
 
 
+[TestCase]
 public void Test1_function()
 {
             TestMe obj= new TestMe();
@@ -27,6 +31,7 @@ public void Test1_function()
         
                 
 }
+[TestCase]
 public void Test2_function()
 {
             TestMe obj= new TestMe();
@@ -40,6 +45,7 @@ public void Test2_function()
         
                 
 }
+[TestCase]
 public void Test3_function()
 {
             TestMe obj= new TestMe();
@@ -53,6 +59,7 @@ public void Test3_function()
         
                 
 }
+[TestCase]
 public void Test4_function()
 {
             TestMe obj= new TestMe();
@@ -66,6 +73,7 @@ public void Test4_function()
         
                 
 }
+[TestCase]
 public void Test5_function()
 {
             TestMe obj= new TestMe();
@@ -79,6 +87,7 @@ public void Test5_function()
         
                 
 }
+[TestCase]
 public void Test6_function()
 {
             TestMe obj= new TestMe();
@@ -92,6 +101,7 @@ public void Test6_function()
         
                 
 }
+[TestCase]
 public void Test7_function()
 {
             TestMe obj= new TestMe();
@@ -105,6 +115,7 @@ public void Test7_function()
         
                 
 }
+[TestCase]
 public void Test8_function()
 {
             TestMe obj= new TestMe();
@@ -118,6 +129,7 @@ public void Test8_function()
         
                 
 }
+[TestCase]
 public void Test9_function()
 {
             TestMe obj= new TestMe();
@@ -131,6 +143,7 @@ public void Test9_function()
         
                 
 }
+[TestCase]
 public void Test10_function()
 {
             TestMe obj= new TestMe();
@@ -144,6 +157,7 @@ public void Test10_function()
         
                 
 }
+[TestCase]
 public void Test11_function()
 {
             TestMe obj= new TestMe();
@@ -157,6 +171,7 @@ public void Test11_function()
         
                 
 }
+[TestCase]
 public void Test12_function()
 {
             TestMe obj= new TestMe();
@@ -170,6 +185,7 @@ public void Test12_function()
         
                 
 }
+[TestCase]
 public void Test13_function()
 {
             TestMe obj= new TestMe();
@@ -183,6 +199,7 @@ public void Test13_function()
         
                 
 }
+[TestCase]
 public void Test14_function()
 {
             TestMe obj= new TestMe();
@@ -196,6 +213,7 @@ public void Test14_function()
         
                 
 }
+[TestCase]
 public void Test15_function()
 {
             TestMe obj= new TestMe();
@@ -209,6 +227,7 @@ public void Test15_function()
         
                 
 }
+[TestCase]
 public void Test16_function()
 {
             TestMe obj= new TestMe();
@@ -222,6 +241,7 @@ public void Test16_function()
         
                 
 }
+[TestCase]
 public void Test17_function()
 {
             TestMe obj= new TestMe();
@@ -235,6 +255,7 @@ public void Test17_function()
         
                 
 }
+[TestCase]
 public void Test18_function()
 {
             TestMe obj= new TestMe();
@@ -248,6 +269,7 @@ public void Test18_function()
         
                 
 }
+[TestCase]
 public void Test19_function()
 {
             TestMe obj= new TestMe();
@@ -261,6 +283,7 @@ public void Test19_function()
         
                 
 }
+[TestCase]
 public void Test20_function()
 {
             TestMe obj= new TestMe();
@@ -274,6 +297,7 @@ public void Test20_function()
         
                 
 }
+[TestCase]
 public void Test21_function()
 {
             TestMe obj= new TestMe();
@@ -287,6 +311,7 @@ public void Test21_function()
         
                 
 }
+[TestCase]
 public void Test22_function()
 {
             TestMe obj= new TestMe();
@@ -300,6 +325,7 @@ public void Test22_function()
         
                 
 }
+[TestCase]
 public void Test23_function()
 {
             TestMe obj= new TestMe();
@@ -313,6 +339,7 @@ public void Test23_function()
         
                 
 }
+[TestCase]
 public void Test24_function()
 {
             TestMe obj= new TestMe();
@@ -326,6 +353,7 @@ public void Test24_function()
         
                 
 }
+[TestCase]
 public void Test25_function()
 {
             TestMe obj= new TestMe();
@@ -339,6 +367,7 @@ public void Test25_function()
         
                 
 }
+[TestCase]
 public void Test26_function()
 {
             TestMe obj= new TestMe();
@@ -352,6 +381,7 @@ public void Test26_function()
         
                 
 }
+[TestCase]
 public void Test27_function()
 {
             TestMe obj= new TestMe();
@@ -365,6 +395,7 @@ public void Test27_function()
         
                 
 }
+[TestCase]
 public void Test28_function()
 {
             TestMe obj= new TestMe();
@@ -378,6 +409,7 @@ public void Test28_function()
         
                 
 }
+[TestCase]
 public void Test29_function()
 {
             TestMe obj= new TestMe();
@@ -391,6 +423,7 @@ public void Test29_function()
         
                 
 }
+[TestCase]
 public void Test30_function()
 {
             TestMe obj= new TestMe();
@@ -404,6 +437,7 @@ public void Test30_function()
         
                 
 }
+[TestCase]
 public void Test31_function()
 {
             TestMe obj= new TestMe();
@@ -417,6 +451,7 @@ public void Test31_function()
         
                 
 }
+[TestCase]
 public void Test32_function()
 {
             TestMe obj= new TestMe();
@@ -430,6 +465,7 @@ public void Test32_function()
         
                 
 }
+[TestCase]
 public void Test33_function()
 {
             TestMe obj= new TestMe();
@@ -443,6 +479,7 @@ public void Test33_function()
         
                 
 }
+[TestCase]
 public void Test34_function()
 {
             TestMe obj= new TestMe();
@@ -456,6 +493,7 @@ public void Test34_function()
         
                 
 }
+[TestCase]
 public void Test35_function()
 {
             TestMe obj= new TestMe();
@@ -469,6 +507,7 @@ public void Test35_function()
         
                 
 }
+[TestCase]
 public void Test36_function()
 {
             TestMe obj= new TestMe();
@@ -482,6 +521,7 @@ public void Test36_function()
         
                 
 }
+[TestCase]
 public void Test1_function2()
 {
             TestMe obj= new TestMe();
@@ -495,6 +535,7 @@ public void Test1_function2()
         
                 
 }
+[TestCase]
 public void Test2_function2()
 {
             TestMe obj= new TestMe();
@@ -508,6 +549,7 @@ public void Test2_function2()
         
                 
 }
+[TestCase]
 public void Test3_function2()
 {
             TestMe obj= new TestMe();
@@ -521,6 +563,7 @@ public void Test3_function2()
         
                 
 }
+[TestCase]
 public void Test4_function2()
 {
             TestMe obj= new TestMe();
@@ -534,6 +577,7 @@ public void Test4_function2()
         
                 
 }
+[TestCase]
 public void Test5_function2()
 {
             TestMe obj= new TestMe();
@@ -547,6 +591,7 @@ public void Test5_function2()
         
                 
 }
+[TestCase]
 public void Test6_function2()
 {
             TestMe obj= new TestMe();
@@ -560,6 +605,7 @@ public void Test6_function2()
         
                 
 }
+[TestCase]
 public void Test7_function2()
 {
             TestMe obj= new TestMe();
@@ -573,6 +619,7 @@ public void Test7_function2()
         
                 
 }
+[TestCase]
 public void Test8_function2()
 {
             TestMe obj= new TestMe();
@@ -586,6 +633,7 @@ public void Test8_function2()
         
                 
 }
+[TestCase]
 public void Test9_function2()
 {
             TestMe obj= new TestMe();
@@ -599,6 +647,7 @@ public void Test9_function2()
         
                 
 }
+[TestCase]
 public void Test10_function2()
 {
             TestMe obj= new TestMe();
@@ -612,6 +661,7 @@ public void Test10_function2()
         
                 
 }
+[TestCase]
 public void Test11_function2()
 {
             TestMe obj= new TestMe();
@@ -625,6 +675,7 @@ public void Test11_function2()
         
                 
 }
+[TestCase]
 public void Test12_function2()
 {
             TestMe obj= new TestMe();
@@ -638,6 +689,7 @@ public void Test12_function2()
         
                 
 }
+[TestCase]
 public void Test13_function2()
 {
             TestMe obj= new TestMe();
@@ -651,6 +703,7 @@ public void Test13_function2()
         
                 
 }
+[TestCase]
 public void Test14_function2()
 {
             TestMe obj= new TestMe();
@@ -664,6 +717,7 @@ public void Test14_function2()
         
                 
 }
+[TestCase]
 public void Test15_function2()
 {
             TestMe obj= new TestMe();
@@ -677,6 +731,7 @@ public void Test15_function2()
         
                 
 }
+[TestCase]
 public void Test16_function2()
 {
             TestMe obj= new TestMe();
@@ -690,6 +745,7 @@ public void Test16_function2()
         
                 
 }
+[TestCase]
 public void Test17_function2()
 {
             TestMe obj= new TestMe();
@@ -703,6 +759,7 @@ public void Test17_function2()
         
                 
 }
+[TestCase]
 public void Test18_function2()
 {
             TestMe obj= new TestMe();
@@ -716,6 +773,7 @@ public void Test18_function2()
         
                 
 }
+[TestCase]
 public void Test19_function2()
 {
             TestMe obj= new TestMe();
@@ -729,6 +787,7 @@ public void Test19_function2()
         
                 
 }
+[TestCase]
 public void Test20_function2()
 {
             TestMe obj= new TestMe();
@@ -742,6 +801,7 @@ public void Test20_function2()
         
                 
 }
+[TestCase]
 public void Test21_function2()
 {
             TestMe obj= new TestMe();
@@ -755,6 +815,7 @@ public void Test21_function2()
         
                 
 }
+[TestCase]
 public void Test22_function2()
 {
             TestMe obj= new TestMe();
@@ -768,6 +829,7 @@ public void Test22_function2()
         
                 
 }
+[TestCase]
 public void Test23_function2()
 {
             TestMe obj= new TestMe();
@@ -781,6 +843,7 @@ public void Test23_function2()
         
                 
 }
+[TestCase]
 public void Test24_function2()
 {
             TestMe obj= new TestMe();
@@ -794,6 +857,7 @@ public void Test24_function2()
         
                 
 }
+[TestCase]
 public void Test25_function2()
 {
             TestMe obj= new TestMe();
@@ -807,6 +871,7 @@ public void Test25_function2()
         
                 
 }
+[TestCase]
 public void Test26_function2()
 {
             TestMe obj= new TestMe();
@@ -820,6 +885,7 @@ public void Test26_function2()
         
                 
 }
+[TestCase]
 public void Test27_function2()
 {
             TestMe obj= new TestMe();
@@ -833,6 +899,7 @@ public void Test27_function2()
         
                 
 }
+[TestCase]
 public void Test28_function2()
 {
             TestMe obj= new TestMe();
@@ -846,6 +913,7 @@ public void Test28_function2()
         
                 
 }
+[TestCase]
 public void Test29_function2()
 {
             TestMe obj= new TestMe();
@@ -859,6 +927,7 @@ public void Test29_function2()
         
                 
 }
+[TestCase]
 public void Test30_function2()
 {
             TestMe obj= new TestMe();
@@ -872,6 +941,7 @@ public void Test30_function2()
         
                 
 }
+[TestCase]
 public void Test31_function2()
 {
             TestMe obj= new TestMe();
@@ -885,6 +955,7 @@ public void Test31_function2()
         
                 
 }
+[TestCase]
 public void Test32_function2()
 {
             TestMe obj= new TestMe();
@@ -898,6 +969,7 @@ public void Test32_function2()
         
                 
 }
+[TestCase]
 public void Test33_function2()
 {
             TestMe obj= new TestMe();
@@ -911,6 +983,7 @@ public void Test33_function2()
         
                 
 }
+[TestCase]
 public void Test34_function2()
 {
             TestMe obj= new TestMe();
@@ -924,6 +997,7 @@ public void Test34_function2()
         
                 
 }
+[TestCase]
 public void Test35_function2()
 {
             TestMe obj= new TestMe();
@@ -937,6 +1011,7 @@ public void Test35_function2()
         
                 
 }
+[TestCase]
 public void Test36_function2()
 {
             TestMe obj= new TestMe();

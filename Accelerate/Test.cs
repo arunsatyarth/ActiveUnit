@@ -37,9 +37,9 @@ namespace Accelerate
 
         public void CreateFuncHeader()
         {
-            FunctionHeader = @"[Test]
+            FunctionHeader = @"[TestCase]
 ";
-            FunctionHeader = "public void Test" +TestId.ToString()+"_"+ MethodInfo.Name + "()";
+            FunctionHeader += "public void Test" +TestId.ToString()+"_"+ MethodInfo.Name + "()";
             /*
             foreach (object item in Parameters)
             {

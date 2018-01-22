@@ -25,17 +25,20 @@ namespace Accelerate
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework; 
 using System.Text;  
-using "+Namespace+@";        
+using " + Namespace+@";        
             ";
 
             ClassPrologue += @"
-class " +ClassName+@"_Test
+[TestFixture]
+class " +ClassName+ @"_Test
 {
 
 public void Assert(bool val)
 {
     //Call Nunit Assert Here
+    NUnit.Framework.Assert.True(val);
 }
 
 
