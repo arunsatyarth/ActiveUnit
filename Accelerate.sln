@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accelerate", "Accelerate\Accelerate.csproj", "{ADA1D8E5-C231-46FB-8B42-14E79E0ADB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressPicker", "AddressPicker\AddressPicker.csproj", "{74AC7E45-B085-44CE-9125-6EB830530146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT", "UT\UT.csproj", "{56B75156-C095-4BC5-8C48-1EF37DF23743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA1D8E5-C231-46FB-8B42-14E79E0ADB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA1D8E5-C231-46FB-8B42-14E79E0ADB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA1D8E5-C231-46FB-8B42-14E79E0ADB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA1D8E5-C231-46FB-8B42-14E79E0ADB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AC7E45-B085-44CE-9125-6EB830530146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AC7E45-B085-44CE-9125-6EB830530146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AC7E45-B085-44CE-9125-6EB830530146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AC7E45-B085-44CE-9125-6EB830530146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B75156-C095-4BC5-8C48-1EF37DF23743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B75156-C095-4BC5-8C48-1EF37DF23743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B75156-C095-4BC5-8C48-1EF37DF23743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B75156-C095-4BC5-8C48-1EF37DF23743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
