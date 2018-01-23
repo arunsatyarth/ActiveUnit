@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework; 
 using System.Text;  
-using AddressPicker;
-using NUnit.Framework;        
+using AddressPicker;        
             
 [TestFixture]
 class Utils_Test

@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework; 
 using System.Text;  
-using AddressPicker;
-using NUnit.Framework;        
+using AddressPicker;        
             
 [TestFixture]
 class TestMe_Test
@@ -526,7 +526,7 @@ public void Test1_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,-100);
-            if (retVal==10000)
+            if (retVal==0)
             {
                 Assert(true);
             }else{
@@ -540,7 +540,7 @@ public void Test2_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,-1);
-            if (retVal==100)
+            if (retVal==-99)
             {
                 Assert(true);
             }else{
@@ -554,7 +554,7 @@ public void Test3_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,0);
-            if (retVal==0)
+            if (retVal==-100)
             {
                 Assert(true);
             }else{
@@ -568,7 +568,7 @@ public void Test4_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,1);
-            if (retVal==-100)
+            if (retVal==-101)
             {
                 Assert(true);
             }else{
@@ -582,7 +582,7 @@ public void Test5_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,100);
-            if (retVal==-10000)
+            if (retVal==-200)
             {
                 Assert(true);
             }else{
@@ -596,7 +596,7 @@ public void Test6_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-100,9999);
-            if (retVal==-999900)
+            if (retVal==-10099)
             {
                 Assert(true);
             }else{
@@ -610,7 +610,7 @@ public void Test7_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,-100);
-            if (retVal==100)
+            if (retVal==99)
             {
                 Assert(true);
             }else{
@@ -624,7 +624,7 @@ public void Test8_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,-1);
-            if (retVal==1)
+            if (retVal==0)
             {
                 Assert(true);
             }else{
@@ -638,7 +638,7 @@ public void Test9_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,0);
-            if (retVal==0)
+            if (retVal==-1)
             {
                 Assert(true);
             }else{
@@ -652,7 +652,7 @@ public void Test10_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,1);
-            if (retVal==-1)
+            if (retVal==-2)
             {
                 Assert(true);
             }else{
@@ -666,7 +666,7 @@ public void Test11_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,100);
-            if (retVal==-100)
+            if (retVal==-101)
             {
                 Assert(true);
             }else{
@@ -680,7 +680,7 @@ public void Test12_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(-1,9999);
-            if (retVal==-9999)
+            if (retVal==-10000)
             {
                 Assert(true);
             }else{
@@ -694,7 +694,7 @@ public void Test13_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(0,-100);
-            if (retVal==0)
+            if (retVal==100)
             {
                 Assert(true);
             }else{
@@ -708,7 +708,7 @@ public void Test14_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(0,-1);
-            if (retVal==0)
+            if (retVal==1)
             {
                 Assert(true);
             }else{
@@ -736,7 +736,7 @@ public void Test16_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(0,1);
-            if (retVal==0)
+            if (retVal==-1)
             {
                 Assert(true);
             }else{
@@ -750,7 +750,7 @@ public void Test17_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(0,100);
-            if (retVal==0)
+            if (retVal==-100)
             {
                 Assert(true);
             }else{
@@ -764,7 +764,7 @@ public void Test18_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(0,9999);
-            if (retVal==0)
+            if (retVal==-9999)
             {
                 Assert(true);
             }else{
@@ -778,7 +778,7 @@ public void Test19_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,-100);
-            if (retVal==-100)
+            if (retVal==101)
             {
                 Assert(true);
             }else{
@@ -792,7 +792,7 @@ public void Test20_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,-1);
-            if (retVal==-1)
+            if (retVal==2)
             {
                 Assert(true);
             }else{
@@ -806,7 +806,7 @@ public void Test21_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,0);
-            if (retVal==0)
+            if (retVal==1)
             {
                 Assert(true);
             }else{
@@ -820,7 +820,7 @@ public void Test22_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,1);
-            if (retVal==1)
+            if (retVal==0)
             {
                 Assert(true);
             }else{
@@ -834,7 +834,7 @@ public void Test23_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,100);
-            if (retVal==100)
+            if (retVal==-99)
             {
                 Assert(true);
             }else{
@@ -848,7 +848,7 @@ public void Test24_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(1,9999);
-            if (retVal==9999)
+            if (retVal==-9998)
             {
                 Assert(true);
             }else{
@@ -862,7 +862,7 @@ public void Test25_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,-100);
-            if (retVal==-10000)
+            if (retVal==200)
             {
                 Assert(true);
             }else{
@@ -876,7 +876,7 @@ public void Test26_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,-1);
-            if (retVal==-100)
+            if (retVal==101)
             {
                 Assert(true);
             }else{
@@ -890,7 +890,7 @@ public void Test27_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,0);
-            if (retVal==0)
+            if (retVal==100)
             {
                 Assert(true);
             }else{
@@ -904,7 +904,7 @@ public void Test28_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,1);
-            if (retVal==100)
+            if (retVal==99)
             {
                 Assert(true);
             }else{
@@ -918,7 +918,7 @@ public void Test29_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,100);
-            if (retVal==10000)
+            if (retVal==0)
             {
                 Assert(true);
             }else{
@@ -932,7 +932,7 @@ public void Test30_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(100,9999);
-            if (retVal==999900)
+            if (retVal==-9899)
             {
                 Assert(true);
             }else{
@@ -946,7 +946,7 @@ public void Test31_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,-100);
-            if (retVal==-999900)
+            if (retVal==10099)
             {
                 Assert(true);
             }else{
@@ -960,7 +960,7 @@ public void Test32_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,-1);
-            if (retVal==-9999)
+            if (retVal==10000)
             {
                 Assert(true);
             }else{
@@ -974,7 +974,7 @@ public void Test33_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,0);
-            if (retVal==0)
+            if (retVal==9999)
             {
                 Assert(true);
             }else{
@@ -988,7 +988,7 @@ public void Test34_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,1);
-            if (retVal==9999)
+            if (retVal==9998)
             {
                 Assert(true);
             }else{
@@ -1002,7 +1002,7 @@ public void Test35_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,100);
-            if (retVal==999900)
+            if (retVal==9899)
             {
                 Assert(true);
             }else{
@@ -1016,7 +1016,7 @@ public void Test36_function2()
 {
             TestMe obj= new TestMe();
             System.Int32 retVal = obj.function2(9999,9999);
-            if (retVal==99980001)
+            if (retVal==0)
             {
                 Assert(true);
             }else{

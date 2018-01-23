@@ -34,7 +34,7 @@ namespace Accelerate
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Text = @"D:\Apps\Accelerate\AddressPicker\bin\Debug\AddressPicker.dll";
+            textBox1.Text = @"C:\a\NoUnit\Bin\AddressPicker.dll";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace Accelerate
                         testclass.ActualFunctions.Add(actualFunction);
                     }
                     FileInfo file = new FileInfo(asm.FullName);
-                    testclass.WriteToFile(file.DirectoryName +@"\"+ classType.Name+".cs");
+                    testclass.WriteToFile(file.DirectoryName +@"\"+ classType.Name+"_Test.cs");
 
                 }
             }
